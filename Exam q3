@@ -1,0 +1,53 @@
+3)  Consider the code for the Link, Stack and Queue classes.  Note Stack and Queue are not complete.
+
+---------------------------------------------------------------
+public class Link{
+  Object thing;
+  Link next;
+}
+---------------------------------------------------------------
+
+
+----------------------------------------------------------------
+public class Stack{
+  Link head;
+  int length=0;
+  
+  public Stack(Link first){
+    head=first;
+    length=1;}
+  
+  public void push(Link newlink){
+    newlink.next=head;
+    head=newlink;}
+    length=length+1;}
+    
+   public Link peek(Link newlink){
+    return head;}
+    
+  .......
+  
+--------------------------------------------------------------
+  
+----------------------------------------------------------------
+public class Queue{
+  Link head;
+  int length=0;
+ 
+  public Queue(Link first){
+    head=first;
+    length=1;} 
+    
+  public void add(Link newlink){
+    newlink.next=head;
+    head=newlink;}
+    length=length+1;}
+    
+  .......
+  
+--------------------------------------------------------------
+
+a)  Explain what a Stack is.  Specify if it is LIFO or FIFO.
+b)  Complete the Stack class by writing the "pop" method.
+c)  Explain what a Queue is.  Specify if it is LIFO or FIFO.
+d)  Complete the Queue class by writing the "peek" and "remove" methods.
