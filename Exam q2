@@ -1,0 +1,14 @@
+2)  Consider the following interface:
+
+-----------------------------------------------------
+public interface Greetings{
+
+  public String FormalHello();
+  
+  public String CasualHello();
+  
+}
+-----------------------------------------------------
+
+a)  Explain what an interface is.
+b)  Write a complete class for a language speaker of your choice, like ItalianSpeaker, which fully implements the interface.
