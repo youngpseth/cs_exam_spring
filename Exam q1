@@ -1,0 +1,21 @@
+1)  Consider the following class:
+
+--------------------------------------------------------
+public class Technology{
+   
+  String name;
+  
+  public Technology(String name){
+    this.name=name;}
+    
+  public void speak(){
+    System.out.println("Bleep, blip.  I am a " + name);}
+    
+---------------------------------------------------------    
+
+a)  Write a subclass to Technology with a class called Smartphone.
+    Add an additional integer field called number.
+    Include a constructor for Technology that takes the "name" and "number" as parameters.
+b)  Explain what POLYMORPHISM is.
+c)  Write a "speak" method for Smartphone that states the "name" and "number".  
+d)  What is this called when we write a subclass method which overrides a super class method?
