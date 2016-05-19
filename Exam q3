@@ -19,7 +19,7 @@ public class Stack{
   
   public void push(Link newlink){
     newlink.next=head;
-    head=newlink;}
+    head=newlink;
     length=length+1;}
     
    public Link peek(Link newlink){
@@ -40,7 +40,7 @@ public class Queue{
     
   public void add(Link newlink){
     newlink.next=head;
-    head=newlink;}
+    head=newlink;
     length=length+1;}
     
   .......
