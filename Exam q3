@@ -51,3 +51,18 @@ a)  Explain what a Stack is.  Specify if it is LIFO or FIFO.
 b)  Complete the Stack class by writing the "pop" method.
 c)  Explain what a Queue is.  Specify if it is LIFO or FIFO.
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
+
+A. A Stack is a data structure that allows data to be inserted with the 'push'method, and removed with 'pop'method. 
+This is a FIFO.
+B. public void pop(Link newlink){
+    newlink.next=head;
+    head=newlink;
+    length=length+1;}
+C. A queue represents an ordered list of objects just like a List , but is used slightly different. 
+   A queue can have to have elements inserted at the end of the queue, and elements removed from the beginning of the queue. 
+  This queue is a FIFO
+D. public Link peek(Link newlink){
+    return head;}
+  
+  public Link remove(Link newlink){
+    remove head;}
