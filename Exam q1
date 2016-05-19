@@ -19,3 +19,11 @@ a)  Write a subclass to Technology with a class called Smartphone.
 b)  Explain what INHERITANCE is.
 c)  Write a "speak" method for Smartphone that states the "name" and "number".  
 d)  What is this called when we write a subclass method which overrides a super class method?
+
+A. public  class Smartphone extends Technology{
+         int number;
+B. Inhertance lets you create classes that are derived from other classes.
+C. public class Speak 
+D. When a subclass method which overrides a super class is called Overload.
+
+          
